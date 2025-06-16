@@ -4,15 +4,15 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Every night before bed, Stella finds her favorite constellation. Orion, the mighty hunter.
-As she counts the three stars on his belt, she whispers three things about her day that she’s grateful for –
-The warm tortillas her grandmother made for dinner,
-The thrill of a new book from the library,
-The way her best friend’s joke made her laugh so hard she couldn’t breathe.
-But one night, something is wrong.
-A star is missing! Stella rubs her eyes. Blinks. Looks again. The belt is incomplete.
-“Stars don’t just disappear." her family tells her. “Maybe a cloud is covering it?”
-But Stella knows better. She tucks a small lantern into her pack – because journeys should never be made in the dark – along with a bag of sweet tamarind candies and her favorite old notebook, its pages filled with sketches of constellations and half-written stories.
+Chaque nuit avant de se coucher, Stella cherche sa constellation préférée. Orion, le puissant chasseur.
+En comptant les trois étoiles de sa ceinture, elle murmure trois choses de sa journée pour lesquelles elle est reconnaissante –
+Les tortillas chaudes que sa grand-mère a préparées pour le dîner,
+L’excitation d’un nouveau livre emprunté à la bibliothèque,
+Et la blague de sa meilleure amie qui l’a fait rire si fort qu’elle en a eu le souffle coupé.
+Mais une nuit, quelque chose ne va pas.
+Une étoile a disparu ! Stella se frotte les yeux. Cligne. Regarde à nouveau. La ceinture est incomplète.
+« Les étoiles ne disparaissent pas comme ça », lui dit sa famille. « Peut-être qu’un nuage la cache ? »
+Mais Stella sait mieux que ça. Elle glisse une petite lanterne dans son sac – car on ne part jamais en voyage dans le noir – ainsi qu’un sachet de bonbons au tamarin sucrés et son vieux carnet préféré, dont les pages sont remplies de croquis de constellations et d’histoires à moitié écrites.
 do animation_player.play(&"walk_off")
-Then, she sets off to find the missing light.
+Puis, elle se met en route pour retrouver la lumière disparue.
 => END

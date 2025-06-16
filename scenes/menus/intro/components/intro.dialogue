@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: The Threadbare Authors
+# SPDX-FileCopyrightText: The Threadbare Authors 
 # SPDX-License-Identifier: MPL-2.0
 ~ start
 # Wait a moment before starting the dialogue proper. In particular, this allows
@@ -6,7 +6,7 @@
 do animation_player.play(&"delay_start")
 do animation_player.animation_finished
 do animation_player.play(&"sketches")
-[speed=0.5]You know that feeling you get when you wrap yourself in your favorite blanket? Like a cozy hug from a loved one.
-[speed=0.5]What if I told you there is a world made of fabric, not too far away and not too near, that used to feel just like that hug?
-[speed=0.5]This world was made of stitches and stories, and people were happy. Until ...
+[speed=0.5]Tu connais cette sensation quand tu t’enveloppes dans ta couverture préférée ? Comme un câlin réconfortant d’un être cher.
+[speed=0.5]Et si je te disais qu’il existe un monde fait de tissu, ni trop loin, ni trop proche, qui ressemblait autrefois à ce câlin ?
+[speed=0.5]Ce monde était fait de coutures et d’histoires, et les gens y étaient heureux. Jusqu’à ce que...
 => END

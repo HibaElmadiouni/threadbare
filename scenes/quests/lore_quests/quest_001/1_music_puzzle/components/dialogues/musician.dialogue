@@ -10,24 +10,24 @@ if not first_conversation:
 
 set first_conversation = false
 
-Musician: Ah! Another wanderer. Welcome to the Song Sanctuary. Or what's left of it.
-StoryWeaver: What happened here?
-Musician: Songs stopped being sung. And when a song is forgotten... the world forgets itself.
+Musician: Ah ! Un autre voyageur. Bienvenue au Sanctuaire des Chants. Ou à ce qu'il en reste.
+StoryWeaver: Que s'est-il passé ici ?
+Musician: Les chansons ont cessé d’être chantées. Et quand une chanson est oubliée... le monde s’oublie lui-même.
 if puzzle.get_progress() >= 1:
-	Musician: Oh! Have you been playing with the stones over there?
-	StoryWeaver: I tapped them and something strange happened...
-	Musician: They can be used to create music...
+	Musician: Oh ! Tu as joué avec les pierres là-bas ?
+	StoryWeaver: Je les ai touchées et quelque chose d’étrange s’est produit...
+	Musician: Elles peuvent être utilisées pour créer de la musique...
 else:
-	Musician: See those stones over there? They can be used to create music...
-Musician: The songs can make wonderful things happen... make items or creatures appear, or even open portals to other regions of Threadbare.
-Musician: Those altars? They hold the memory of each song in the ashes of their fires.
-Musician: Now, if I remember correctly, there's a song that used to open the portal to the Ink Well, where songwriters found the ink to write all the songs of the world.
-Musician: Let's see if I can remember how it works...
-Musician: Try tapping the first, and second stones, then check the first altar above. If you see flames, we're on to the right melody.
+	Musician: Tu vois ces pierres là-bas ? Elles peuvent être utilisées pour créer de la musique...
+Musician: Les chansons peuvent provoquer des choses merveilleuses... faire apparaître des objets ou des créatures, ou même ouvrir des portails vers d'autres régions de Threadbare.
+Musician: Ces autels ? Ils gardent la mémoire de chaque chanson dans les cendres de leurs feux.
+Musician: Maintenant, si je me souviens bien, il y avait une chanson qui ouvrait le portail vers le Puits d’Encre, où les compositeurs trouvaient l’encre pour écrire toutes les chansons du monde.
+Musician: Voyons si je me rappelle comment cela fonctionne...
+Musician: Essaie de toucher la première, puis la deuxième pierre, puis regarde le premier autel au-dessus. Si tu vois des flammes, c’est que nous avons trouvé la bonne mélodie.
 => END
 
 ~ hello_again
-Musician: Hello again, StoryWeaver. Would you like a hint?
+Musician: Te revoilà, Tisseur d’Histoires. Veux-tu un indice ?
 - Yes
 	match puzzle.get_progress()
 		when 0
@@ -41,58 +41,58 @@ Musician: Hello again, StoryWeaver. Would you like a hint?
 	do advance_hint_level()
 	=> END
 - No
-	Musician: OK then, good luck.
+	Musician: Très bien, bonne chance.
 	=> END
 
 ~ hint_melody_0
 match get_hint_level()
 	when 0
-		Musician: Hmmm... Try tapping the first, second, and third stones in that order.
+		Musician: Hmmm... Essaie de toucher la première, la deuxième et la troisième pierre, dans cet ordre.
 	when 1
-		Musician: Even I'm forgetting in this torn world, let's see...
-		Musician: OK, I remember tapping the first, second, third, and fifth stones.
+		Musician: Même moi, j’oublie dans ce monde déchiré, voyons voir...
+		Musician: D’accord, je me souviens avoir touché la première, la deuxième, la troisième et la cinquième pierre.
 	else
-		Musician: I remember tapping the first, second, third, and fifth stones.
+		Musician: Je me souviens avoir touché la première, la deuxième, la troisième et la cinquième pierre.
 => END
 
 ~ hint_melody_1
 match get_hint_level()
 	when 0
-		Musician: How wonderful! We lit the first altar!
-		Musician: Look at the symbol on the second altar to see if you can work out what the next part of the melody might be.
+		Musician: Merveilleux ! Nous avons allumé le premier autel !
+		Musician: Regarde le symbole sur le deuxième autel pour essayer de deviner la suite de la mélodie.
 	when 1
-		Musician: The symbol seems to suggest that you need to move up one note, and repeat the first melody.
+		Musician: Le symbole semble suggérer qu’il faut monter d’une note, et répéter la première mélodie.
 	else
-		Musician: I think that altar symbol means start with the second note... then third, fourth, and sixth.
+		Musician: Je pense que ce symbole signifie commencer par la deuxième note... puis la troisième, la quatrième et la sixième.
 => END
 
 ~ hint_melody_2
 match get_hint_level()
 	when 0
-		Musician: For the third part of the melody, the altar symbol suggests the next melody is played backwards.
+		Musician: Pour la troisième partie de la mélodie, le symbole de l’autel suggère que la mélodie suivante doit être jouée à l’envers.
 	when 1
-		Musician: Try playing the previous melody but in reverse.
+		Musician: Essaie de jouer la mélodie précédente mais à l’envers.
 	else
-		Musician: OK, I think it is sixth, fourth, third, and second for this one.
+		Musician: D’accord, je pense que c’est sixième, quatrième, troisième et deuxième pour celle-ci.
 => END
 
 ~ hint_melody_3
 match get_hint_level()
 	when 0
-		Musician: Last one... you can do this! Look at the symbol and play the final melody.
+		Musician: La dernière... tu peux le faire ! Regarde le symbole et joue la mélodie finale.
 	when 1
-		Musician: Think about what you have already played... the answer is there.
+		Musician: Pense à ce que tu as déjà joué... la réponse s’y trouve.
 	else
-		Musician: Play the very first melody, but in reverse. Fifth, third, second, and first should do it.
+		Musician: Joue la toute première mélodie, mais à l’envers. Cinquième, troisième, deuxième, puis première, ça devrait aller.
 => END
 
 ~ item_hint
-Musician: You did it!... That's the magical melody... how wonderful. It's been so long since I heard it.
-Musician: You have opened the portal to the Ink Well. Let's go there to collect ink so songs and stories can be written again.
-Musician: But we must be careful, InkDrinkers dwell there!
-Musician: The melody awakened the memory of song. Collect the Memory threads before you go!
+Musician: Tu l’as fait !... C’est la mélodie magique... comme c’est merveilleux. Cela fait si longtemps que je ne l’avais entendue.
+Musician: Tu as ouvert le portail vers le Puits d’Encre. Allons-y pour collecter l’encre, afin que les chansons et les histoires puissent être écrites à nouveau.
+Musician: Mais nous devons être prudents, les Buveurs d’Encre rôdent là-bas !
+Musician: La mélodie a réveillé la mémoire du chant. Récupère les Fils de Mémoire avant de partir !
 => END
 
 ~ well_done
-StoryWeaver: Ink Well, here we come!
+StoryWeaver: Puits d’Encre, nous voilà !
 => END

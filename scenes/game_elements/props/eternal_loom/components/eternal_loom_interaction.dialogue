@@ -1,21 +1,21 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ welcome
-The Eternal Loom welcomes you, StoryWeaver. Threads you collect help to repair the fabric of our world.
+Le Métier Éternel te souhaite la bienvenue, Tisseur d’Histoires. Les fils que tu récoltes aident à réparer la trame de notre monde.
 => END
 
 ~ no_threads
 =>< welcome
-It seems you are lacking the threads of Memory, Imagination, and Spirit... try coming back later.
+Il semble que tu manques des fils de Mémoire, d’Imagination et d’Esprit… essaie de revenir plus tard.
 => END
 
 ~ have_threads
 =>< welcome
-The Memory, Imagination, and Spirit threads are ready to be incorporated into the loom!
+Les fils de Mémoire, d’Imagination et d’Esprit sont prêts à être incorporés dans le métier !
 do on_offering_succeeded()
 => END
 
 ~ threads_incorporated
-Elders: We thank you, StoryWeaver! The fabric of the world slowly heals!
-Elders: Go forth: our world still needs your help.
+Aînés : Nous te remercions, Tisseur d’Histoires ! La trame du monde guérit lentement !
+Aînés : Va de l’avant : notre monde a encore besoin de ton aide.
 => END

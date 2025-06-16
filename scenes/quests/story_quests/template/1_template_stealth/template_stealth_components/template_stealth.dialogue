@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-This simple stealth scene includes guards and a collectible. Use the nodes in the Scene Tree to build a level.
-Notice the tile map is built with multiple layers. This makes it easier to make changes to the environment.
-Click a node, like "Player" or "Guard1" and modify their properties in the Inspector, or add new elements.
-Don't be afraid to think outside the box. (Oh, and remove or replace this text!)
+Cette scène d’infiltration simple inclut des gardes et un objet à collecter. Utilise les nœuds dans l’arborescence de la scène pour construire un niveau.
+Note que la carte de tuiles est construite avec plusieurs couches. Cela facilite les modifications de l’environnement.
+Clique sur un nœud, comme « Player » ou « Guard1 », et modifie leurs propriétés dans l’Inspecteur, ou ajoute de nouveaux éléments.
+N’aie pas peur de penser en dehors des sentiers battus. (Oh, et supprime ou remplace ce texte !)
 => END
