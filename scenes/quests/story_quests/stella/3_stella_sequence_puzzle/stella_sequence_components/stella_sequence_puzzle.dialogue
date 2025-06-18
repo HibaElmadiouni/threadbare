@@ -1,10 +1,10 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-Stella se trouve dans le désert du Kalahari en Afrique australe, où elle rencontre un gardien khoisan de la nature, reposant sous un ciel infini.
-Elle s’approche du Gardien et lui demande des nouvelles de l’étoile disparue.
+تجد ستيلا نفسها في صحراء كالاهاري بجنوب إفريقيا، حيث تلتقي بحارس من شعب الخويسان، مستريحًا تحت سماء لا نهائية.
+تقترب ستيلا من الحارس وتسأله عن أخبار النجم المفقود.
 => END
 
 ~ well_done
-Stella lève les yeux vers le ciel nocturne, et enfin, elle aperçoit l’étoile manquante ! Fatiguée de ses voyages, elle rentre chez elle.
+ترفع ستيلا عينيها نحو السماء الليلية، وأخيرًا، تلمح النجم المفقود! متعبة من رحلاتها، تعود إلى منزلها.
 => END

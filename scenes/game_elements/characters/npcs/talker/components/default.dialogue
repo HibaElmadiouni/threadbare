@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-{{npc_name}} : [[Salut|Bonjour|Mes salutations]], {{player_name}}.
+{{npc_name}} : [[السلام عليكم|أهلا|مرحبا]], {{player_name}}.
 => END

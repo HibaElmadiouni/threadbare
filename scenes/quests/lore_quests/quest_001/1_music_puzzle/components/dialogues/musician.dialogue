@@ -1,3 +1,4 @@
+
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
@@ -10,24 +11,24 @@ if not first_conversation:
 
 set first_conversation = false
 
-Musician: Ah ! Un autre voyageur. Bienvenue au Sanctuaire des Chants. Ou à ce qu'il en reste.
-StoryWeaver: Que s'est-il passé ici ?
-Musician: Les chansons ont cessé d’être chantées. Et quand une chanson est oubliée... le monde s’oublie lui-même.
+Musician: آه! مسافر آخر. مرحبًا بك في حديقة الأناشيد... أو ما تبقى منها.
+StoryWeaver: ماذا حدث هنا؟
+Musician: توقفت الأناشيد عن الغناء. وعندما تُنسى أنشودة... ينسى العالم نفسه.
 if puzzle.get_progress() >= 1:
-	Musician: Oh ! Tu as joué avec les pierres là-bas ?
-	StoryWeaver: Je les ai touchées et quelque chose d’étrange s’est produit...
-	Musician: Elles peuvent être utilisées pour créer de la musique...
+	Musician: أوه! هل لعبت بالحجارة هناك؟
+	StoryWeaver: لمستها وحدث شيء غريب...
+	Musician: يمكن استخدامها لصنع الموسيقى...
 else:
-	Musician: Tu vois ces pierres là-bas ? Elles peuvent être utilisées pour créer de la musique...
-Musician: Les chansons peuvent provoquer des choses merveilleuses... faire apparaître des objets ou des créatures, ou même ouvrir des portails vers d'autres régions de Threadbare.
-Musician: Ces autels ? Ils gardent la mémoire de chaque chanson dans les cendres de leurs feux.
-Musician: Maintenant, si je me souviens bien, il y avait une chanson qui ouvrait le portail vers le Puits d’Encre, où les compositeurs trouvaient l’encre pour écrire toutes les chansons du monde.
-Musician: Voyons si je me rappelle comment cela fonctionne...
-Musician: Essaie de toucher la première, puis la deuxième pierre, puis regarde le premier autel au-dessus. Si tu vois des flammes, c’est que nous avons trouvé la bonne mélodie.
+	Musician: هل ترى تلك الحجارة هناك؟ يمكن استخدامها لصنع الموسيقى...
+	Musician: يمكن للأناشيد أن تُحدث أشياء رائعة... مثل ظهور أشياء أو مخلوقات، أو حتى فتح بوابات إلى مناطق أخرى من "عالم النسيج".
+	Musician: هذه المجامر الكبيرة؟ إنها تحفظ ذاكرة كل أنشودة في رماد نيرانها.
+	Musician: الآن، إذا لم تخني الذاكرة، كانت هناك أنشودة تفتح البوابة إلى "بئر الحبر"، حيث كان المؤلفون يجدون الحبر لكتابة كل أناشيد العالم.
+	Musician: دعني أرى إن كنت أتذكر كيف تعمل...
+	Musician: حاول لمس الحجر الأول، ثم الثاني، ثم انظر إلى المجمر الكبير الأول في الأعلى. إذا رأيت لهبًا، فهذا يعني أننا وجدنا اللحن الصحيح.
 => END
 
 ~ hello_again
-Musician: Te revoilà, Tisseur d’Histoires. Veux-tu un indice ?
+Musician: ها أنت ذا مجددًا، يا ناسج القصص. هل ترغب في تلميح؟
 - Yes
 	match puzzle.get_progress()
 		when 0
@@ -41,58 +42,58 @@ Musician: Te revoilà, Tisseur d’Histoires. Veux-tu un indice ?
 	do advance_hint_level()
 	=> END
 - No
-	Musician: Très bien, bonne chance.
+	Musician: حسنًا، حظًا موفقًا.
 	=> END
 
 ~ hint_melody_0
 match get_hint_level()
 	when 0
-		Musician: Hmmm... Essaie de toucher la première, la deuxième et la troisième pierre, dans cet ordre.
+		Musician: هممم... جرّب لمس الحجر الأول، ثم الثاني، ثم الثالث بهذا الترتيب.
 	when 1
-		Musician: Même moi, j’oublie dans ce monde déchiré, voyons voir...
-		Musician: D’accord, je me souviens avoir touché la première, la deuxième, la troisième et la cinquième pierre.
+		Musician: حتى أنا أنسى في هذا العالم الممزق، دعني أرى...
+		Musician: حسنًا، أتذكر أنني لمست الحجر الأول، الثاني، الثالث، ثم الخامس.
 	else
-		Musician: Je me souviens avoir touché la première, la deuxième, la troisième et la cinquième pierre.
+		Musician: أتذكر أنني لمست الحجر الأول، الثاني، الثالث، ثم الخامس.
 => END
 
 ~ hint_melody_1
 match get_hint_level()
 	when 0
-		Musician: Merveilleux ! Nous avons allumé le premier autel !
-		Musician: Regarde le symbole sur le deuxième autel pour essayer de deviner la suite de la mélodie.
+		Musician: رائع! لقد أشعلنا المجمر الكبير الأول!
+		Musician: انظر إلى الرمز على المجمر الكبير الثاني وحاول تخمين الجزء التالي من اللحن.
 	when 1
-		Musician: Le symbole semble suggérer qu’il faut monter d’une note, et répéter la première mélodie.
+		Musician: يبدو أن الرمز يشير إلى أنه يجب رفع النغمة وتكرار اللحن الأول.
 	else
-		Musician: Je pense que ce symbole signifie commencer par la deuxième note... puis la troisième, la quatrième et la sixième.
+		Musician: أعتقد أن هذا الرمز يعني أن نبدأ من النغمة الثانية... ثم الثالثة، الرابعة، والسادسة.
 => END
 
 ~ hint_melody_2
 match get_hint_level()
 	when 0
-		Musician: Pour la troisième partie de la mélodie, le symbole de l’autel suggère que la mélodie suivante doit être jouée à l’envers.
+		Musician: للجزء الثالث من اللحن، يشير رمز المجمر الكبير إلى أن اللحن التالي يجب أن يُعزف بالعكس.
 	when 1
-		Musician: Essaie de jouer la mélodie précédente mais à l’envers.
+		Musician: جرّب عزف اللحن السابق ولكن بالعكس.
 	else
-		Musician: D’accord, je pense que c’est sixième, quatrième, troisième et deuxième pour celle-ci.
+		Musician: حسنًا، أعتقد أن الترتيب هو السادس، الرابع، الثالث، ثم الثاني.
 => END
 
 ~ hint_melody_3
 match get_hint_level()
 	when 0
-		Musician: La dernière... tu peux le faire ! Regarde le symbole et joue la mélodie finale.
+		Musician: الأخير... يمكنك فعلها! انظر إلى الرمز واعزف اللحن النهائي.
 	when 1
-		Musician: Pense à ce que tu as déjà joué... la réponse s’y trouve.
+		Musician: فكّر فيما عزفته سابقًا... الجواب هناك.
 	else
-		Musician: Joue la toute première mélodie, mais à l’envers. Cinquième, troisième, deuxième, puis première, ça devrait aller.
+		Musician: اعزف اللحن الأول بالكامل ولكن بالعكس. الخامس، الثالث، الثاني، ثم الأول، يجب أن ينجح.
 => END
 
 ~ item_hint
-Musician: Tu l’as fait !... C’est la mélodie magique... comme c’est merveilleux. Cela fait si longtemps que je ne l’avais entendue.
-Musician: Tu as ouvert le portail vers le Puits d’Encre. Allons-y pour collecter l’encre, afin que les chansons et les histoires puissent être écrites à nouveau.
-Musician: Mais nous devons être prudents, les Buveurs d’Encre rôdent là-bas !
-Musician: La mélodie a réveillé la mémoire du chant. Récupère les Fils de Mémoire avant de partir !
+Musician: لقد فعلتها!... إنه اللحن السحري... كم هو رائع. لقد مر وقت طويل منذ أن سمعته آخر مرة.
+Musician: لقد فتحت البوابة إلى "بئر الحبر". هيا بنا نجمع الحبر، حتى تُكتب الأناشيد والقصص من جديد.
+Musician: لكن علينا أن نكون حذرين، فـ"شاربو الحبر" يتجولون هناك!
+Musician: لقد أيقظ اللحن ذاكرة الأنشودة. اجمع خيوط الذاكرة قبل أن ترحل!
 => END
 
 ~ well_done
-StoryWeaver: Puits d’Encre, nous voilà !
+StoryWeaver: بئر الحبر، ها نحن قادمون!
 => END

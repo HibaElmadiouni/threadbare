@@ -1,11 +1,10 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-Musician : Les paroliers composaient autrefois des chansons si colorées. Mais les Buveurs d’Encre ont consommé toute l’encre. Restaure l’encre dans les pots correspondants.
-Musician : Mais fais attention, ils crachent !
+Musician: كان كُتّاب الكلمات يؤلفون أناشيد زاهية الألوان في الماضي. لكن شاربي الحبر استهلكوا كل الحبر. أعد الحبر إلى الأواني المناسبة.
+Musician: لكن كن حذرًا، فهم يبصقون!
 => END
-
 ~ well_done
-Musician : Bravo, Tisseur d’Histoires, tu as collecté assez d’encre pour de nouvelles chansons et histoires. Tout le monde va se réjouir.
-Musician : Je dois retourner au Sanctuaire des Chants pour protéger les pierres magiques, mais toi, tu devrais retourner à l’Extrémité Effilochée. Attention : le chemin du retour est infesté de Dévoreurs d’Histoires. Reste fort d’esprit, et avance vite !
+Musician: أحسنت، يا ناسج القصص، لقد جمعت ما يكفي من الحبر لأناشيد وقصص جديدة. سيفرح الجميع بذلك.
+Musician: يجب أن أعود إلى حديقة الأناشيد لحماية الحجارة السحرية، أما أنت، فعليك العودة إلى الحافة المتقطعة. انتبه: طريق العودة مليء بملتهمي القصص. كن قوي الذهن، وتقدم بسرعة!
 => END

@@ -4,15 +4,15 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Chaque nuit avant de se coucher, Stella cherche sa constellation préférée. Orion, le puissant chasseur.
-En comptant les trois étoiles de sa ceinture, elle murmure trois choses de sa journée pour lesquelles elle est reconnaissante –
-Les tortillas chaudes que sa grand-mère a préparées pour le dîner,
-L’excitation d’un nouveau livre emprunté à la bibliothèque,
-Et la blague de sa meilleure amie qui l’a fait rire si fort qu’elle en a eu le souffle coupé.
-Mais une nuit, quelque chose ne va pas.
-Une étoile a disparu ! Stella se frotte les yeux. Cligne. Regarde à nouveau. La ceinture est incomplète.
-« Les étoiles ne disparaissent pas comme ça », lui dit sa famille. « Peut-être qu’un nuage la cache ? »
-Mais Stella sait mieux que ça. Elle glisse une petite lanterne dans son sac – car on ne part jamais en voyage dans le noir – ainsi qu’un sachet de bonbons au tamarin sucrés et son vieux carnet préféré, dont les pages sont remplies de croquis de constellations et d’histoires à moitié écrites.
+في كل ليلة قبل أن تخلد إلى النوم، تبحث ستيلا عن كوكبتها المفضلة. الجبّار، الصياد القوي.
+وبينما تعدّ النجوم الثلاث في حزامه، تهمس بثلاثة أشياء من يومها تشعر بالامتنان لها –
+التورتيلا الساخنة التي أعدّتها جدتها للعشاء،
+وحماسها لكتاب جديد استعارته من المكتبة،
+ونكتة صديقتها المقرّبة التي جعلتها تضحك بشدة حتى انقطع نفسها.
+لكن في إحدى الليالي، يحدث شيء غريب.
+نجمة اختفت! تفرك ستيلا عينيها. ترمش. تنظر مجددًا. الحزام ناقص.
+«النجوم لا تختفي هكذا»، تقول لها عائلتها. «ربما سحابة قامت بتغطيتها؟»
+لكن ستيلا تعرف أن الأمر أعمق من ذلك. تضع فانوسًا صغيرًا في حقيبتها – فلا أحد ينطلق في رحلة في الظلام – بالإضافة إلى كيس من حلوى التمر الهندي الحلوة، ودفترها القديم المفضل، المليء برسومات الكوكبات وقصص نصف مكتملة.
 do animation_player.play(&"walk_off")
-Puis, elle se met en route pour retrouver la lumière disparue.
+ثم تنطلق في رحلتها للعثور على النجمة المفقودة.
 => END

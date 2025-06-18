@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-KnitWitch : J’ai sauvegardé ta progression, Stella !
-{{player_name}} : Merci !
+KnitWitch : لقد قمت بحفظ تقدمك !
+{{player_name}} : شكرا !
 => END

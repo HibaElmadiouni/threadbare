@@ -1,7 +1,8 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
+
 ~ start
-Guardian : Un chasseur ? Un bateau ? Un feu ? Non, ce sont trois tortues, dans leur lent voyage à travers les cieux.
-Guardian : L’une d’elles est perdue. Tu vois ? Par ici.
-Guardian : Celle-ci a oublié sa chanson. Sans elle, elle ne peut pas retrouver le chemin vers les étoiles. Tu dois l’aider à se souvenir.
+Guardian: صياد؟ قارب؟ نار؟ لا، إنها ثلاث سلاحف، في رحلتهن البطيئة عبر السماء.
+Guardian: إحداهن ضاعت. هل ترين؟ من هذا الاتجاه.
+Guardian: هذه نسيت أنشودتها. وبدونها، لا يمكنها أن تجد طريقها إلى النجوم. عليك أن تساعديها على التذكّر.
 => END

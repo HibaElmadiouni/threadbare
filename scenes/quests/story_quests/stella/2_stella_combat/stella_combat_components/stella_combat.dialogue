@@ -2,13 +2,13 @@
 # SPDX-License-Identifier: MPL-2.0
 
 ~ start
-Stella se retrouve à suivre la brise marine jusqu’aux rivages paisibles du nord de l’Australie, où elle rencontre un pêcheur Yolŋu en train de réparer son filet.
-Stella : Tu connais mon étoile disparue ? Vient-elle du chasseur ? D’un foyer ?
-Fisherman : Chasseur ? Foyer ? Non, non. C’est Djulpan, la pirogue qui navigue dans le ciel.
-Fisherman : L’une des étoiles de la pirogue était un poisson qui a sauté par-dessus bord, plongeant dans la mer sombre. Sans les trois étoiles, la pirogue est incomplète.
+تجد ستيلا نفسها تتبع نسيم البحر حتى تصل إلى السواحل الهادئة في شمال أستراليا، حيث تلتقي بصياد من شعب يولنغو وهو يصلح شبكته.
+Stella: هل تعرف شيئًا عن نجمتي المفقودة؟ هل هي من الصياد؟ أم من موقد؟
+Fisherman: صياد؟ موقد؟ لا، لا. إنها "دجولبان"، الزورق الذي يبحر في السماء.
+Fisherman: إحدى نجوم الزورق كانت سمكة قفزت خارجه، وغاصت في البحر المظلم. وبدون النجوم الثلاث، يصبح الزورق غير مكتمل.
 => END
 
 ~ well_done
-Elle lève les yeux vers le ciel, et ne voit toujours pas l’étoile manquante. Elle pousse un soupir.
-Les vents chauds guident Stella dans son voyage. Où ira-t-elle ensuite ?
+ترفع عينيها نحو السماء، لكنها لا ترى النجم المفقود. تتنهّد.
+الرياح الدافئة ترشد ستيلا في رحلتها. إلى أين ستذهب بعد ذلك؟
 => END

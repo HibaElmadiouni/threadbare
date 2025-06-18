@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-{{player_name}} : Sais-tu pourquoi Orion a une étoile en moins ?
-{{npc_name}} : Qui est Orion ? Un chasseur ? Non, enfant. Ces trois étoiles sont les Pierres du Foyer de la Création. Celle qui manque ? C’était notre feu.
-{{npc_name}} : Le Dieu du Maïs allumait autrefois la flamme cosmique. Sans elle, le monde est déséquilibré.
-{{npc_name}} : Mais le feu n’est jamais donné gratuitement. Il doit être repris.
+{{player_name}}: هل تعرف لماذا لدى الجبّار نجمة ناقصة؟
+{{npc_name}}: من هو الجبّار؟ صيّاد؟ لا، يا صغيري. تلك النجوم الثلاث هي الحجارة السحرية. أما التي اختفت؟ فكانت أهمها.
+{{npc_name}}: إنها تساهم في الحفاظ على توازن الكون. وبدونها، يختل توازن العالم.
+{{npc_name}}: لكن النار لا تُمنح مجانًا أبدًا. لا بد من استعادتها.
 => END

@@ -1,11 +1,12 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 
+
 ~ start
-Quelque chose dans cette scène va te lancer des projectiles. Le but est de les rediriger vers les cibles.
-Explore l’arborescence de la scène pour ajouter, modifier ou supprimer des éléments.
+هناك شيء في هذا المشهد سيقذف عليك مقذوفات. الهدف هو إعادة توجيهها نحو الأهداف.
+استكشف شجرة المشهد لإضافة أو تعديل أو حذف العناصر.
 => END
 
 ~ well_done
-Tu peux ajouter du texte ici après que le joueur ait récupéré l’objet. Sois créatif avec celui-ci !
+يمكنك إضافة نص هنا بعد أن يجمع اللاعب العنصر. كن مبدعًا في هذا الجزء!
 => END

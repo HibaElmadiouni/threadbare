@@ -4,11 +4,11 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Bienvenue dans le modèle StoryQuest, où vous apprendrez à modifier les éléments de chaque scène et à créer votre propre StoryQuest ! Commençons par l’intro.
-Dans le système de fichiers Godot, trouvez le dossier intro et double-cliquez sur le fichier de dialogue intro pour modifier le texte.
-Appuyez sur Entrée pour ajouter une nouvelle ligne. Chaque ligne devient une nouvelle boîte de dialogue dans le jeu.
-Sélectionnez le nœud Cinematic ; faites glisser votre dialogue StoryQuest dans le champ « Dialogue » de l’Inspecteur.
-Définissez la scène suivante en utilisant le champ « Scène suivante » dans l’Inspecteur.
+مرحبًا بك في نموذج StoryQuest، حيث ستتعلّم كيفية تعديل عناصر كل مشهد وإنشاء مغامرتك القصصية الخاصة! لنبدأ بالمقدمة.
+في نظام ملفات Godot، ابحث عن مجلد intro وانقر نقرًا مزدوجًا على ملف الحوار intro لتعديل النص.
+اضغط على Enter لإضافة سطر جديد. كل سطر يصبح مربع حوار جديد داخل اللعبة.
+حدد العقدة Cinematic؛ ثم اسحب حوار StoryQuest الخاص بك إلى حقل "الحوار" في نافذة المفتش.
+حدد المشهد التالي باستخدام حقل "المشهد التالي" في نافذة المفتش.
 do animation_player.play(&"walk_off")
-Explorez d’autres éléments à modifier, comme l’image de remplacement, la carte de tuiles, et les options d’animation pour cette scène !
+استكشف عناصر أخرى يمكنك تعديلها، مثل صورة الخلفية، خريطة البلاط، وخيارات التحريك لهذا المشهد!
 => END

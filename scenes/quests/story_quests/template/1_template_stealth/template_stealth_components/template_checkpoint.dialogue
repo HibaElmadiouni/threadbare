@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-KnitWitch : Voici un point de contrôle qui permet de sauvegarder la progression du joueur.
-{{player_name}} : Merci !
+KnitWitch: هذا نقطة حفظ تتيح للاعب حفظ تقدمه.
+{{player_name}}: شكرًا لك!
 => END

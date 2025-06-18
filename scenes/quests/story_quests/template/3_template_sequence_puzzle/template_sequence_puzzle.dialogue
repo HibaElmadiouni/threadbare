@@ -1,13 +1,14 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
+
 ~ start
-Cette scène comprend des objets que le joueur doit toucher dans une séquence précise, ainsi que des panneaux avec des indices.
-Sélectionnez un nœud "SequencePuzzleStep" et modifiez le tableau dans le champ "Sequence".
-La première mélodie est définie sur jaune, vert, bleu. Cela signifie que vous devez toucher ces objets dans cet ordre.
-Pouvez-vous deviner la deuxième séquence sans regarder l’Inspecteur ?
+يتضمن هذا المشهد عناصر يجب على اللاعب لمسها بترتيب معين، بالإضافة إلى لوحات تحتوي على تلميحات.
+حدد عقدة "SequencePuzzleStep" وعدّل الجدول في حقل "Sequence".
+اللحن الأول محدد بالألوان: أصفر، أخضر، أزرق. هذا يعني أنه يجب عليك لمس هذه العناصر بهذا الترتيب.
+هل يمكنك تخمين التسلسل الثاني دون النظر إلى نافذة المفتش؟
 => END
 
 ~ well_done
-Bravo ! Vous pouvez ajouter plus d’étapes au puzzle. N’oubliez pas de les ajouter au nœud "SequencePuzzle" et d’ajouter un nouveau panneau d’indice pour chacune.
-Avec ce que vous avez appris jusqu’ici, quel type de défi pouvez-vous créer ici ? Amusez-vous bien !
+أحسنت! يمكنك إضافة المزيد من الخطوات إلى اللغز. لا تنسَ إضافتها إلى عقدة "SequencePuzzle" وإضافة لوحة تلميح جديدة لكل خطوة.
+بناءً على ما تعلمته حتى الآن، ما نوع التحدي الذي يمكنك إنشاؤه هنا؟ استمتع!
 => END

@@ -3,8 +3,8 @@
 ~ start
 do animation_player.play("walk_into_scene")
 do animation_player.animation_finished
-StoryWeaver : J'ai réussi ! J'ai récupéré les éléments de l'histoire.
-StoryWeaver : Il est temps de retourner à Fray's End avec la Mémoire, l'Imagination et l'Esprit.
-StoryWeaver : Tisser de nouveau cette histoire dans le Métier aidera à réparer les trous dans ce monde.
+StoryWeaver: لقد نجحت! لقد استرجعت عناصر القصة.
+StoryWeaver: حان الوقت للعودة إلى "آلة الخياطة الأبدية" ومعي الذاكرة، والخيال، والروح.
+StoryWeaver: نسج هذه القصة من جديد في الآلة سيساعد على إصلاح الثقوب في هذا العالم.
 do animation_player.play("walk_off_scene")
 => END

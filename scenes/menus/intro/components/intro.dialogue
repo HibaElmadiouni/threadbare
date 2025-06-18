@@ -6,7 +6,7 @@
 do animation_player.play(&"delay_start")
 do animation_player.animation_finished
 do animation_player.play(&"sketches")
-[speed=0.5]Tu connais cette sensation quand tu t’enveloppes dans ta couverture préférée ? Comme un câlin réconfortant d’un être cher.
-[speed=0.5]Et si je te disais qu’il existe un monde fait de tissu, ni trop loin, ni trop proche, qui ressemblait autrefois à ce câlin ?
-[speed=0.5]Ce monde était fait de coutures et d’histoires, et les gens y étaient heureux. Jusqu’à ce que...
+[speed=0.5]هل تعرف ذلك الشعور عندما تغطي نفسك ببطانيتك المفضلة؟ كعناق دافئ من شخص عزيز.
+[speed=0.5]ماذا لو أخبرتك أن هناك عالمًا من القماش، ليس بعيدًا جدًا، ولا قريبًا جدًا، كان يومًا ما يشبه ذلك العناق؟
+[speed=0.5]كان هذا العالم مصنوعًا من الخياطة والقصص، وكان الناس سعداء فيه. حتى...
 => END

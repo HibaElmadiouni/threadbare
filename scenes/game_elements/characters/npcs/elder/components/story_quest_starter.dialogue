@@ -1,16 +1,16 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-StoryQuest Elder : [[Salut|Bonjour|Salutations]], StoryWeaver. Nous t’avons attendu. Notre monde se défait !
-StoryQuest Elder : Nous avons besoin que tu retrouves les Éléments Sacrés : les fils de la Mémoire, de l’Imagination et de l’Esprit ! Nous aideras-tu ?
+LoreQuest Elder : [[السلام عليكم|أهلا|مرحبا]], يا ناسج القصص. لقد انتظرناك كثيرا. إن عالمنا يختفي !
+LoreQuest Elder : عليك مساعدتنا بالبحت عن العناصر المقدسة : خيوط الذاكرة وخيوط الخيال وخيوط الروح ! هل ستساعدنا ?
 do show_storybook()
 if chosen_quest == null:
-	% StoryQuest Elder : S’il te plaît, reste. Notre monde périra sans ton aide !
-	% StoryQuest Elder : J’espère te revoir. Nous avons vraiment besoin de toi !
-	% StoryQuest Elder : Le peuple de Threadbare compte sur toi. J’espère que tu changeras d’avis !
+	% LoreQuest Elder : أرجوك ساعدنا. فعالمنا سينتهي إن لم تتكرم بمساعدتنا !
+	% LoreQuest Elder : أتمنا عودتك، فإن عالمنا بحاجة ماسة لمساعدتك !
+	% LoreQuest Elder : إن سكان علمنا عالم النسيج بحاجة ماسة اليك، اتمنى أن تغير رأيك !
 else:
-	StoryQuest Elder : Nous croyons en toi, StoryWeaver. Deviens le héros, et vois où le chemin mène.
+	LoreQuest Elder : نعتمد عليك يا ناسج القصص.
 => END
 ~ go_to_loom
-StoryQuest Elder : Vas-y, StoryWeaver : rapporte les fils au Métier Éternel.
+LoreQuest Elder : هيا يا ناسج القصص، احضر خيوط آلة الخياطة الأبدية، حظا موفقا.
 => END

@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ start
-Cette scène d’infiltration simple inclut des gardes et un objet à collecter. Utilise les nœuds dans l’arborescence de la scène pour construire un niveau.
-Note que la carte de tuiles est construite avec plusieurs couches. Cela facilite les modifications de l’environnement.
-Clique sur un nœud, comme « Player » ou « Guard1 », et modifie leurs propriétés dans l’Inspecteur, ou ajoute de nouveaux éléments.
-N’aie pas peur de penser en dehors des sentiers battus. (Oh, et supprime ou remplace ce texte !)
+هذا المشهد البسيط للتسلل يتضمن حرّاسًا وشيئًا يمكن جمعه. استخدم العقد في شجرة المشهد لبناء مستوى.
+لاحظ أن خريطة البلاط مبنية باستخدام عدة طبقات، مما يسهل تعديل البيئة.
+انقر على عقدة مثل "Player" أو "Guard1"، وعدّل خصائصها في نافذة المفتش، أو أضف عناصر جديدة.
+لا تخف من التفكير خارج الصندوق. (آه، ولا تنسَ حذف هذا النص أو استبداله!)
 => END

@@ -1,21 +1,21 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
 ~ welcome
-Le Métier Éternel te souhaite la bienvenue, Tisseur d’Histoires. Les fils que tu récoltes aident à réparer la trame de notre monde.
+آلة الخياطة الأبدية ترحب بك ياناسج القصص، الخيوط التي تجمعها تقوم باصلاح عالمنا.
 => END
 
 ~ no_threads
 =>< welcome
-Il semble que tu manques des fils de Mémoire, d’Imagination et d’Esprit… essaie de revenir plus tard.
+يبدو أنك تفتقد خيوط الذاكرة والخيال والروح... حاول العودة لاحقًا.
 => END
 
 ~ have_threads
 =>< welcome
-Les fils de Mémoire, d’Imagination et d’Esprit sont prêts à être incorporés dans le métier !
+خيوط الذاكرة والخيال والروح جاهزة ليتم دمجها في الآلة!
 do on_offering_succeeded()
 => END
 
 ~ threads_incorporated
-Aînés : Nous te remercions, Tisseur d’Histoires ! La trame du monde guérit lentement !
-Aînés : Va de l’avant : notre monde a encore besoin de ton aide.
+Aînés : نشكرك يا حائك القصص! نسيج العالم يتعافى تدريجيا !
+Aînés : هيا اذهب واتمم المغمرة : عالمنا لا يزال بحاجة إلى مساعدتك.
 => END

@@ -3,5 +3,5 @@
 ~ start
 if str(GameState.current_spawn_point) != ""
 	=> END
-Le voyage de Stella la mène au cœur du Guatemala, où elle rencontre un gardien du feu maya qui veille sur le foyer dans un village.
+تأخذ الرحلة، ستيلا، إلى قلب غواتيمالا، حيث تلتقي بحارس النار من المايا يراقب الموقد في إحدى القرى.
 => END
